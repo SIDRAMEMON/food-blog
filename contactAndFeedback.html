@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taste Of Pakistan</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+    <script src="script.js"></script>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">TASTE OF PAKISTAN</div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactAndFeedback.html">Contact & Feedback</a></li>
+        <li class="dropdown">
+          <a href="regional.html" class="dropbtn">Regional Foods</a>
+          <div class="dropdown-content">
+            <a href="sindh.html">Sindh</a>
+            <a href="punjab.html">Punjab</a>
+            <a href="balochistan.html">Balochistan</a>
+            <a href="kpk.html">KPK</a>
+            <a href="gilgit.html">Gilgit</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="streetfood.html" class="dropbtn">Street Food</a>
+          <div class="dropdown-content">
+            <a href="hyderabadstreet.html">Hyderabad Street</a>
+            <a href="karachistreet.html">Karachi Street</a>
+            <a href="lahorestreet.html">Lahore Street</a>
+            <a href="peshawarstreet.html">Peshawar Street</a>
+            <a href="ziaratstreet.html">Ziarat Street</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="special.html" class="dropbtn">Special Categories</a>
+          <div class="dropdown-content">
+            <a href="ramadanspecial.html">Ramadan Special</a>
+            <a href="eidspecial.html">Eid Special</a>
+            <a href="drinks.html">Drinks</a>
+            <a href="desserts.html">Desserts</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  
+<main class="container">
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <h2>Feel Free To Contact</h2>
+    <p>If you have any questions or suggestions, feel free to reach out. We're here to help and your voice matters to us.</p>
+    <ul class="contact-info">
+      <li><strong>Email:</strong> <a href="mailto:support@tasteofpakistan.com">support@tasteofpakistan.com</a></li>
+      <li><strong>Phone:</strong> <a href="tel:+923001234567">+92 300 1234567</a></li>
+      <li><strong>Location:</strong> <a href="https://www.google.com/maps/place/Hyderabad,+Sindh,+Pakistan" target="_blank" rel="noopener noreferrer">Hyderabad, Pakistan</a></li>
+    </ul>
+  </section>
+
+  <!-- Rating Section -->
+  <section class="rating-section">
+    <h2>Rate Your Experience</h2>
+    <p>How would you rate your experience on this website?</p>
+    
+    <form action="#" method="post" class="rating-form">
+      <fieldset>
+        <legend class="visually-hidden">Star Rating</legend>
+        <div class="stars">
+          <input type="radio" id="star5" name="rating" value="5">
+          <label for="star5" title="5 stars">&#9733;</label>
+
+          <input type="radio" id="star4" name="rating" value="4">
+          <label for="star4" title="4 stars">&#9733;</label>
+
+          <input type="radio" id="star3" name="rating" value="3">
+          <label for="star3" title="3 stars">&#9733;</label>
+
+          <input type="radio" id="star2" name="rating" value="2">
+          <label for="star2" title="2 stars">&#9733;</label>
+
+          <input type="radio" id="star1" name="rating" value="1">
+          <label for="star1" title="1 star">&#9733;</label>
+        </div>
+      </fieldset>
+      <button type="submit" class="submit-btn">Submit Rating</button>
+    </form>
+  </section>
+
+</main>
+
+
+  <footer class="footer">
+    <div class="footercontent">
+      <p>&copy; 2025 Taste Of Pakistan. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
